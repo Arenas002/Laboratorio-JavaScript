@@ -1,0 +1,151 @@
+
+/**
+ * 
+ */
+let basePreguntas = {
+0 : [
+    {
+        
+        "pregunta" : "¿Qué selección de fútbol ha ganado más Mundiales?",
+        "respuesta":"Brazil",
+        "incorrecto":["Colombia","Alemania","Francia"],
+
+    },
+    {
+        
+        "pregunta" :"¿ Cuál es la capital de México?",
+        "respuesta":"Ciudad de mexico",
+        "incorrecto":["Cancún","Puebla","Tijuana"],
+
+    },
+    {
+        
+        "pregunta" :"¿ En qué ciudad dicen la frase Las caleñas son como las flores?",
+        "respuesta":"cali",
+        "incorrecto":["Medellin","bucaramanga","barranquilla"],
+    },
+    {
+        
+        "pregunta" :"¿Quién es ahora mismo el máximo representante de la Iglesia?",
+        "respuesta":"El papa Fransiscoi",
+        "incorrecto":["El padre Gregorio Magnon","El presidente Duque","El papa Benedicto XVI"],
+    },
+
+
+],
+1 :[
+
+    {
+        "pregunta": "¿Qué país cuenta con el 60% de los paramos del mundo?",
+        "respuesta":"Colombia",
+        "incorrecto":["Uruguay","Chile","Brazil"],
+
+    },
+    {
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "respuesta":"El océano Pacífico",
+        "incorrecto":["El océano índico","El océano atlántico","El océano ártico"],
+    },
+    {
+        "pregunta": "¿Dónde está ubicada la perla de América?",
+        "respuesta":"Santa Marta",
+        "incorrecto":["Barranquilla","Cartagena","San Andres Islas"],
+    },
+    {
+        "pregunta": "¿Dónde se ubica el paramo de oceta?",
+        "respuesta":"Colombia",
+        "incorrecto":["Brasil","Peru","Argentina"],
+    },
+    {
+        "pregunta": "¿Cuál es la montaña más alta del mundo?",
+        "respuesta":"Everest",
+        "incorrecto":["pico Bolívar","Nevado del tolima","Makalu"],
+    },
+
+],
+2 :[
+    {
+        "pregunta": "¿Quién ganó el mundial de fútbol de 2010?",
+        "respuesta":"España",
+        "incorrecto":["Alemania","Colombia","Brasil"], 
+    },
+    {
+        "pregunta": "¿Cuál es el club de fútbol con más Champions?",
+        "respuesta":"Real Madrid",
+        "incorrecto":["Atlético de Madrid","Inter de milan","FC Barcelona"], 
+    },
+    {
+        "pregunta": "¿Qué selección de fútbol tiene más mundiales?",
+        "respuesta":"Brasil",
+        "incorrecto":["Alemania","España","Italia"], 
+    },
+    {
+        "pregunta": "¿Cuál es el futbolista con más balones de oro?",
+        "respuesta":"Lionel Messi",
+        "incorrecto":["james rodríguez","ronaldinho","Cristiano ronaldo"], 
+    },
+    {
+        "pregunta": "¿Cuántos anillos hay en la bandera olímpica?",
+        "respuesta":"Cinco",
+        "incorrecto":["Cuatro","Tres","Dos"],
+    },
+    
+
+],
+3:[
+    {
+        "pregunta": "¿Cuántos huesos tiene el cuerpo humano?",
+        "respuesta":"206 huesos",
+        "incorrecto":["310 huesos","189 huesos","108 huesos"],
+    },
+    {
+        "pregunta": "¿Quién invento la presion hidráulica?",
+        "respuesta":"Blaise Pascal",
+        "incorrecto":["Euclides","Issac Newton","Cristóbal Colón"],
+    },
+    {
+        "pregunta": "¿Qué tiende a hacer la entropia en el universo?",
+        "respuesta":"a aumentar",
+        "incorrecto":["A disminiur","A anularse","A permanecer constante"],
+    },
+    {
+        "pregunta": "¿Cuál es el primer elemento de la tabla periódica?",
+        "respuesta":"hidrógeno",
+        "incorrecto":["Nitrogeno","Fosforo","Carbono"],
+    },
+    {
+        "pregunta": "¿Qué órgano tenemos en el cuello y se encarga de producir hormonas?",
+        "respuesta":"La glándula tiroides",
+        "incorrecto":["La glándula pineal","La glándula pituitaria","páncreas"],
+    },
+],
+4 :[
+    {
+        "pregunta": "¿Cuál es el idioma más antiguo en Europa?",
+        "respuesta":"Vasco",
+        "incorrecto":["Español","Aleman","Mandarin"],
+    },
+    {
+        "pregunta": "¿cómo se llamaba la esposa de Simón bolivar?",
+        "respuesta":"Maira Teresa del Toro y Alayza",
+        "incorrecto":["policarpa salavarrieta","Antonia Teresa Santos","María de la Concepción Palacios"],
+    },
+    {
+        "pregunta": "¿Quién dijo: El hombre que es capaz de perder una hora de tiempo no ha descubierto el valor de la vida.?",
+        "respuesta":"Socrates",
+        "incorrecto":["platon","Enstein","aristoteles"],
+    },
+    {
+        "pregunta": "¿Quién fue el último faraón de Egipto?",
+        "respuesta":" Ramsés III",
+        "incorrecto":["Amosis I","Ptolomeo III","Jesus de Nasaret"],
+    },
+    {
+        "pregunta": "¿En qué año cayó el muro de Berlín?",
+        "respuesta":" 1989",
+        "incorrecto":["1997","1876","1965"],
+    },
+]
+};
+
+
