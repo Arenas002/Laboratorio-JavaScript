@@ -15,7 +15,7 @@ const random = (Math.floor(Math.random()*basePreguntas[numero].length))
 const container = document.getElementById("game board");
 const header = document.createElement("div");
 header.id = "header";
-header.textContent ="BIEMVENIDOS A QUIEN QUIERE SER MILLONARIO INGRESE SU NOMBRE PARA EMPEZAR "
+header.textContent ="BIENVENIDOS A QUIEN QUIERE SER MILLONARIO INGRESE SU NOMBRE PARA EMPEZAR "
 
 //niveles en pantalla
   const nivel = document.createElement("div");
@@ -75,13 +75,10 @@ header.append(input,button);
 
 
 
-///funcionalidad
 
 
 
 document.getElementById("button").addEventListener("click",() => cargaPregunta());
-
-
 document.getElementById("option-1").addEventListener("click",() => seleccionar(0));
 document.getElementById("option-2").addEventListener("click",() => seleccionar(1));
 document.getElementById("option-3").addEventListener("click",() => seleccionar(2));
@@ -106,9 +103,7 @@ function cargaPregunta(){
   cargarPersona();
   document.getElementById("nivel").innerHTML = "Nivel " +niveles
   objetoPreguntas = basePreguntas[numero][random];
-  console.log(objetoPreguntas);
   options = [...objetoPreguntas.incorrecto];
-  console.log(options);
   options.push(objetoPreguntas.respuesta);
   options.sort(()=>Math.random()-0.5);
   document.getElementById("header").innerHTML= objetoPreguntas.pregunta;
@@ -140,7 +135,6 @@ localStorage.setItem("players",JSON.stringify(player));
  }else{
     const newData =[];
     newData.push(ObjetoStorage);
-
 
   localStorage.setItem("players",JSON.stringify(newData));
   
@@ -192,7 +186,7 @@ localStorage.setItem("players",JSON.stringify(player));
     numero = 0;
     score = 0;
     niveles = 1;
-   cargaPregunta();
+   
   }
   
  cargaPregunta();
